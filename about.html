@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./about.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Document</title>
+</head>
+
+<body class="bg-[#323946] font-[cursive]">
+    <main class="mt-[70px]">
+        <div class="container w-[28%] m-auto flex items-center flex-col">
+            <h1 class="text-white text-[26px] text-center mb-[100px]">
+                About <span class="text-[cyan]">me</span>
+                <a class="text-[16px] text-[white]" href="./index.html">[Home]</a>
+            </h1>
+
+            <div data-aos="fade-up" 
+                 class="card duration-[5000ms] w-[400px] h-[400px] bg-[cyan] rounded-[10px] flex flex-col items-center gap-[50px] mt-[50px] transition-all">
+                <div data-aos="fade-down" 
+                     class="box flex flex-col items-center gap-[20px] relative bottom-[100px]">
+                    <img data-aos="zoom-in" class="transition rounded-[1000px] border-[10px] border-[#323946]" 
+                         src="./IMG_1337.PNG" width="200" alt="Profile Picture">
+                    <h1 class="font-bold text-[20px]" data-aos="fade-up">Karimbayev Saidolim Sarvar o'g'li</h1>
+                    <h3 class="font-bold text-[20px]" data-aos="fade-up" data-aos-delay="200">Birth day: 04/11/2009</h3>
+                    <h4 class="font-bold text-[20px]" data-aos="fade-up" data-aos-delay="400">Phone Number: +998 94 663 28 26</h4>
+                    <h2 class="font-bold text-[20px]" data-aos="fade-up" data-aos-delay="600">Frontend Developer</h2>
+                    <div class="imgs flex gap-4" data-aos="flip-left" data-aos-delay="800">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        
+        AOS.init({
+            duration: 1500,  
+            easing: 'ease-in-out',  
+            once: true,  
+        });
+    </script>
+</body>
+
+</html>

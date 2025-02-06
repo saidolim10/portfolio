@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> <!-- AOS kutubxonasini qo'shish -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> <!-- AOS kutubxonasini chaqirish -->
+    <title>Document</title>
+</head>
+
+<body class="bg-[#323946] font-[cursive]">
+    <h1 class="text-white text-center text-[24px] mt-[70px]">My <span class="text-[cyan]">Services</span>  
+        <a class="text-[16px] text-[white]" href="./index.html">[Home]</a>
+    </h1>
+
+    <div class="cards flex flex-wrap justify-center mt-[60px] gap-[30px]">
+        <div data-aos="fade-up" class="card w-[385px] h-[484px] bg-[#1F242D] rounded-[20px] flex flex-col items-center gap-[30px] hover:border-[5px] hover:border-[cyan] transition-all">
+            <img class="mt-[30px]" src="./globe-regular-48 1.svg" alt="">
+            <h1 class="text-[26px] text-[cyan]">Web Design</h1>
+            <p class="text-white text-center w-[349px]">I am professional Web Developer. I have designed more than 50 web templates for my clients. You can hire me for designing your personal, business, or other website templates. You can trust me to complete your work with full satisfaction.</p>
+            <button class="w-[288px] h-[35px] bg-white rounded-[50px] hover:bg-[cyan] hover:text-white transition-all">Hire Me</button>
+        </div>
+
+        <div data-aos="fade-down" class="card w-[385px] h-[484px] bg-[#1F242D] rounded-[20px] flex flex-col items-center gap-[30px] hover:border-[5px] hover:border-[cyan] transition-all">
+            <img class="mt-[30px]" src="./globe-regular-48 2.svg" alt="">
+            <h1 class="text-[26px] text-[cyan]">Web Developer</h1>
+            <p class="text-white text-center w-[349px]">I am a professional Web Developer. I have designed more than 50 web templates for my clients. You can hire me for designing your personal, business, or other website templates. You can trust me to complete your work with full satisfaction.</p>
+            <button class="w-[288px] h-[35px] bg-white rounded-[50px] hover:bg-[cyan] hover:text-white transition-all">Hire Me</button>
+        </div>
+
+        <div data-aos="fade-up" class="card w-[385px] h-[484px] bg-[#1F242D] rounded-[20px] flex flex-col items-center gap-[30px] hover:border-[5px] hover:border-[cyan] transition-all">
+            <img class="mt-[30px]" src="./globe-regular-48 3.svg" alt="">
+            <h1 class="text-[26px] text-[cyan]">Graphic Design</h1>
+            <p class="text-white text-center w-[349px]">I am a professional Web Developer. I have designed more than 50 web templates for my clients. You can hire me for designing your personal, business, or other website templates. You can trust me to complete your work with full satisfaction.</p>
+            <button class="w-[288px] h-[35px] bg-white rounded-[50px] hover:bg-[cyan] hover:text-white transition-all">Hire Me</button>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({ 
+            duration: 3000, // Animatsiya davomiyligi
+            easing: 'ease-in-out', // Animatsiyaning o'tish effektlari
+            once: true // Animatsiya faqat bir marta amalga oshiriladi
+        });
+    </script>
+</body>
+
+</html>
